@@ -1,0 +1,16 @@
+{
+  "project_name": "st_cluster",
+  "hparams": {
+    "batch_size": 32,
+    "lr": 0.001,
+    "dropout": 0.5
+  },
+  "trnparams": {
+    "epochs": 400,
+    "multi_gpu": false,
+    "n_cups": 10
+  },
+  "resparams": {
+    "save_dir": "/zfssz2/ST_MCHRI/BIGDATA/USER/baiyong/stCluster"
+  }
+}
